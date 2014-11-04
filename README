@@ -1,0 +1,18 @@
+This is a bash and python script to strip out passwords from Kippo log files.
+
+Prep:
+	First we need to make the scripts executable by the command shell.
+	Type:
+		chmod +x getpasswds.sh
+		chmod +x readlog
+
+	This adds the Execute flag to the file
+
+To run just type: ./getpasswds.sh
+	This will output the stripped passwords to the screen.
+	To get them into their own file type this:
+		./getpasswds.sh > CHINA_PASSWORDS
+
+	Then you can view CHINA_PASSWORDS as a text file. ;D
+
+--p0rks.

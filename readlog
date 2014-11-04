@@ -1,0 +1,22 @@
+#!/usr/bin/python
+#python script to process strip out strings from input.
+#Expected input format: '[STUFFHERE_1/STUFFHERE_2]'
+#This will strip out everything and leave STUFFHERE_2
+import sys
+
+# We're gonna loop over everything from STDIN until
+# theres nothing left.
+for line in sys.stdin:
+
+	# 'line' is STDIN so lets
+	# split it in half!
+	str = line.split("/")
+
+	# take the second half (slice 1 of the array) 
+	# and replace the 3 bytes on the end witih nothing. :D
+	passwd = str[1].replace("]\n","")
+	
+	# print that shit!
+	# you win!
+	print passwd
+
