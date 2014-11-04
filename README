@@ -15,4 +15,11 @@ To run just type: ./getpasswds.sh
 
 	Then you can view CHINA_PASSWORDS as a text file. ;D
 
+To get these files on your system:
+	git clone https://github.com/p0rks/kippopasswd
+	cd kippopasswd
+	
+Options:
+	Change kippo log file location in getpasswds.sh before running.
+
 --p0rks.
